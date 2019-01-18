@@ -1,0 +1,15 @@
+<div *ngFor='let price of prices$' style="text-align:center">
+ <h1>
+   Welcome to {{ title }}!
+ </h1>
+  <h2>
+    {{ price.name }}
+  </h2>
+  <p>
+    {{ price.status }}
+  </p>
+  
+</div>
+
+
+<router-outlet></router-outlet>
